@@ -22,7 +22,8 @@ describe(`Function 'arrayReverse':`, () => {
   });
 
   it(`should return an reversed array`, () => {
-    expect(arrayReverse(['I', 'am', 'a', 'student!'])).toEqual(['!', 'tn', 'e', 'dutsamaI']);
+    expect(arrayReverse(['I', 'am', 'a', 'student!']))
+      .toEqual(['!', 'tn', 'e', 'dutsamaI']);
   });
 
   // write more tests here
